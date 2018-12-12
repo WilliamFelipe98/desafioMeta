@@ -1,7 +1,10 @@
 
 API Contatos
 
-Para executar use #python manage.py runserver
+Para executar use "python manage.py runserver"<br/>
 
-#User: admin
-#Senha: admin
+Abra a url localhost:8000/contato
+
+Dados para obter token de acesso
+# User: admin <br/>
+# Senha: admin
