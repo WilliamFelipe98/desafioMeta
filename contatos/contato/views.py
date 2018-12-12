@@ -8,9 +8,9 @@ from rest_framework.permissions import IsAuthenticated
 class ContatoList(generics.ListCreateAPIView):
     queryset = Contato.objects.all()
     serializer_class = ContatoSerializer
-    #permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)
 
 class ContatoDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Contato.objects.all()
     serializer_class = ContatoSerializer
-    #permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)

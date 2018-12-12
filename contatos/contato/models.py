@@ -8,4 +8,4 @@ class Contato(models.Model):
     created_at = models.DateTimeField(auto_now_add=True) 
      
 def __str__(self):
-    return "Nome: "+self.nome+", Canal: "+ self.canal+", Valor: "+ self.valor
+    return "Nome: "+self.nome+", Canal: "+ self.canal+", Valor: "+ self.valor+", Observação: "+ self.obs

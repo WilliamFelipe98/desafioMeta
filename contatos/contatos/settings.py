@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-
+from datetime import timedelta
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -41,13 +41,12 @@ REST_FRAMEWORK = {
     ), 
     'NON_FIELD_ERRORS_KEY': 'global', 
 } 
-'''
 # JWT settings 
 JWT_AUTH = { 
     'JWT_ALLOW_REFRESH': True, 
     'JWT_EXPIRATION_DELTA': timedelta(days=2), 
 }
-'''
+
 DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
