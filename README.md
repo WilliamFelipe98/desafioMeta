@@ -3,7 +3,7 @@ API Contatos
 
 Passos para executar:<br/>
 1- Executando a vm  <br/>
-# minhavm/Script/activate
+# minhavm/bin/activate
 2- Executando a aplicação, <br/>
 dentro da pasta contatos execute:
 # "python manage.py runserver"
