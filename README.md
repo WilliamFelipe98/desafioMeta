@@ -2,7 +2,7 @@
 API Contatos
 
 Passos para executar:<br/>
-1- Executando a vm  <br/>
+1- Executando a vm(Vm em Linux)  <br/>
 # minhavm/bin/activate
 2- Executando a aplicação, <br/>
 dentro da pasta contatos execute:
